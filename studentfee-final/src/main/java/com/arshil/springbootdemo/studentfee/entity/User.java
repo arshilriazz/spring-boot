@@ -1,6 +1,8 @@
 package com.arshil.springbootdemo.studentfee.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -9,6 +11,8 @@ import javax.validation.constraints.NotNull;
 @Entity
 @Setter
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
@@ -21,13 +25,4 @@ public class User {
     String password;
     @Column
     String role;
-
-    public User() { }
-
-    public User(int id, String username, String password, String role) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.role = role;
-    }
 }

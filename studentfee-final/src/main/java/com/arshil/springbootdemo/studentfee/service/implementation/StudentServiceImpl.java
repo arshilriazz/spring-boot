@@ -1,9 +1,10 @@
-package com.arshil.springbootdemo.studentfee.service;
+package com.arshil.springbootdemo.studentfee.service.implementation;
 
 import com.arshil.springbootdemo.studentfee.entity.Student;
 import com.arshil.springbootdemo.studentfee.entity.User;
 import com.arshil.springbootdemo.studentfee.repository.StudentRepository;
 import com.arshil.springbootdemo.studentfee.repository.UserRepository;
+import com.arshil.springbootdemo.studentfee.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
