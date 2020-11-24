@@ -95,7 +95,6 @@ INSERT INTO `student` VALUES
 (2,'1604-16-733-026','Shaik','Aziz','msa@gmail.com','Semester_1','Due'),
 (3,'1604-16-733-028','Arshil','Riaz','arshilriaz@gmail.com','Semester_1','Due');
 
-
 insert into user values
 (1, 'admin', '$2a$10$p6R9L/YJCtrw0.vx5twf7ujOw.xSXHVZ1w19Fk8J3iAdNKrh50zLG', 'ROLE_ADMIN'),
 (2, '1604-16-733-025', '$2a$10$p6R9L/YJCtrw0.vx5twf7ujOw.xSXHVZ1w19Fk8J3iAdNKrh50zLG', 'ROLE_USER'),
