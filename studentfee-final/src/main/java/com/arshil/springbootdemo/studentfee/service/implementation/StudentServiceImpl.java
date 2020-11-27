@@ -49,8 +49,8 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public User findByRoll(String roll) {
-        User user = userRepository.findByUsername(roll);
-        return user;
+        Optional<User> user = Optional.ofNullable(userRepository.findByUsername(roll));
+        return user.orElse(null);
     }
 
     @Override
